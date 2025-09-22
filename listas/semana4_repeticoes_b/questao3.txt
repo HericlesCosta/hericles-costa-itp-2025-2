@@ -1,0 +1,24 @@
+## LOOP ANINHADO 3
+
+De acordo com o código: 
+
+printf (" Digite um valor para n: ");
+scanf ("%d", &n);
+for(i = 1; i <= n; i++) {
+    for(j = i; j >= 1; j--)
+        printf ("%d ", j);
+    printf ("\n");
+}
+
+A execução segue de acordo com o código da questão anterior, onde a variável "j" segue a variável "i".
+Sendo assim, a cada execução do primeiro laço, o segundo laço aumenta a quantidade de vezes que será executado.
+A diferença entre as duas questões é que, agora, "j" = "i", mas "j" reduz seu valor de 1 em 1 ao invés de aumentar.
+
+Ex da execução com n == 5:
+
+  j j j j j
+i 1
+i 2 1
+i 3 2 1
+i 4 3 2 1 
+i 5 4 3 2 1

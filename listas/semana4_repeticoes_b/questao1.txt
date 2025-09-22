@@ -1,0 +1,23 @@
+## LOOP ANINHADO 1
+
+De acordo com o código:
+
+for (i = 0; i < 5; i++){
+	for (j = 0; j < 4; j++){
+		printf("%d ", j);
+	}
+	printf("\n");
+}
+
+O primeiro laço 'for' será executado 5 vezes, o segundo 4 vezes. O primeiro laço é executado a primeira vez, assim, o segundo laço começa todas as suas execuções.
+O segundo laço irá realizar a impressão dos valores de "j" e a cada final de execução, o primeiro laço irá pular uma linha.
+Dessa maneira, sucessivamente, isso irá acontecer. Ao final da execução, teremos esse resultado: 
+
+  j j j j
+i 0 1 2 3
+i 0 1 2 3
+i 0 1 2 3
+i 0 1 2 3
+i 0 1 2 3
+
+Onde o laço com 'i' é responsável pelas linhas e o laço 'j', pelas colunas.

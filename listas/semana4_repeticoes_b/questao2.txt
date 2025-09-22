@@ -1,0 +1,22 @@
+## LOOP ANINHADO 2
+
+De acordo com o código:
+
+printf(" Digite um valor para n: ");
+scanf("%d", &n);
+for (i = 1; i <= n; i++) {
+	for (j = 1; j <= i; j++)
+		printf("%d ", j);
+}
+
+O primeio laço será executado "n" quantidade de vezes e o segundo laço segue o primeiro, dessa forma, ele sempre executará de acordo com o valor atual da variável do primeiro laço.
+Sendo assim, o valor de "j" aumentará de acordo com a quantidade de vezes que o primeiro laço for executado, até executar o segundo laço "n" vezes em sua última execução.
+
+Ex da execução com n == 5:
+
+  j j j j j
+i 1
+i 1 2
+i 1 2 3
+i 1 2 3 4
+i 1 2 3 4 5

@@ -1,0 +1,24 @@
+## LOOP ANINHADO 4
+
+De acordo com o código: 
+
+printf (" Digite um valor para n: ");
+scanf ("%d", &n);
+for(i = 1; i <= n; i++) {
+    for(j = 1; j <= n; j++)
+        printf ("%d ", i+j);
+    printf ("\n");
+}
+
+Nesse código os dois laços são executados até "n", mas a cada execução do primeiro, o segundo executa todas as vezes.
+Como há uma soma ocorrendo a cada printf, então o primeiro número é a soma do valor do primeiro laço mais a incrementação que está ocorrendo no segundo laço a cada vez que executa.
+Assim, sucessivamente até que i == n na última execução do primeiro laço.
+
+Ex da execução com n == 5:
+
+  j j j j j
+i 2 3 4 5 6
+i 3 4 5 6 7
+i 4 5 6 7 8
+i 5 6 7 8 9
+i 6 7 8 9 10
