@@ -3,8 +3,9 @@
 #include "biblioteca.h"
 
 void removerLivros(){
+    
     if (totalLivros == 0) {
-        printf("Você não possui nenhum livro cadastrado!\n");
+        printf("\nVocê não possui nenhum livro cadastrado!\n");
         return;
     }
 
@@ -14,14 +15,14 @@ void removerLivros(){
     scanf("%d", &indice);
 
     if (indice < 1 || indice > totalLivros) {
-        printf("Índice inválido!\n");
+        printf("\nÍndice inválido!\n");
         return;
     }
 
     for (int i = indice - 1; i < totalLivros - 1; i++) {
-        snprintf(biblioteca[i], MAX_TITULO, "%s", biblioteca[i + 1]);
+        strncpy(biblioteca[i], biblioteca[i + 1], MAX_TITULO);
     }
 
     totalLivros--;
-    printf("Livro removido com sucesso!\n");
+    printf("\nLivro removido com sucesso!\n");
 }

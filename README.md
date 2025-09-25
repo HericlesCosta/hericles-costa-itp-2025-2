@@ -9,22 +9,24 @@
 - `listas/`: Soluções das listas de exercícios
 - `README.md`: Este arquivo
 
-## 🚀 Projeto: [Nome do Seu Projeto]
+## 🚀 Projeto: Sistema de Biblioteca
 
-**Descrição**: [Breve descrição do que o projeto faz]
+**Descrição**: O projeto integra serviços de cadastro, remoção e listagem de livros cadastrados.
 
-**Repositório**: [Link para repositório público]
+**Repositório**: [Projeto no Github](https://github.com/HericlesCosta/hericles-costa-itp-2025-2)
 
-**Vídeo de Demonstração**: [Link para o vídeo]
+**Vídeo de Demonstração**: [Vídeo no Youtube]()
 
 ### Funcionalidades Implementadas:
-- [Lista das principais funcionalidades]
+- Cadastro de livros;
+- Remoção de livros;
+- Listagem dos livros cadastrados;
 
 ### Conceitos da U1 Aplicados:
-- Estruturas condicionais: [onde foram usadas]
-- Estruturas de repetição: [onde foram usadas]
-- Vetores: [como foram aplicados]
-- Funções: [quantas e suas responsabilidades]
+- Estruturas condicionais: ifs e switch-case. Foram utilizadas em verificações para realizar as ações e para escolher a opção da ação.
+- Estruturas de repetição: "for" para listagem e remoção dos livros. "Do-while" para o arquivo principal, onde mostra as opções para escolha, ficar em loop até o encerramento do programa. 
+- Vetores: Para salvar os livros em ordem de cadastro.
+- Funções: 3 funções além da main. Como falando anteriormente, utilizadas para cadastro, remoção e listagem de livros.
 
 ## 📚 Listas de Exercícios
 
@@ -66,9 +68,9 @@
 - ✅ Problema 4: Em busca do tesouro perdido
 
 ## 🎯 Principais Aprendizados
-[Reflita sobre os principais conceitos aprendidos na U1]
+Serviu, principalmente, para conhecer melhor a linguagem. Fiz diversas pesquisas para saber como implementar as coisas, como funcionava tudo etc. Além do mais, é uma linguagem forte e é bastante útil para possuir um conhecimento mais amplo para depois utilizar em outras linguagens mais "fracas".
 
 ## 🔧 Ambiente de Desenvolvimento
-- **SO**: WSL
+- **SO**: WSL - Windows Subsystem Linux - Ubuntu
 - **Compilador**: GCC versão 13.3.0
 - **Editor**: VSCODE

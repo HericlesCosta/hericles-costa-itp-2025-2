@@ -9,7 +9,7 @@ int main() {
         printf("\n ---- MENU DA BIBLIOTECA ----\n");
         printf("\n1. Cadastrar Livro\n");
         printf("2. Remover Livro\n");
-        printf("3. Listar Livro\n");
+        printf("3. Listar Livros\n");
         printf("0. Sair\n");
         printf("\nEscolha uma opção: ");
         scanf("%d", &opcao);
@@ -26,10 +26,10 @@ int main() {
             listarLivros();
             break;
         case 0:
-            printf("Encerrando Sistema...\n");
+            printf("\nEncerrando Sistema...\n");
             break;
         default:
-            printf("Opção Inválida!\n");
+            printf("\nOpção Inválida!\n");
         }
 
     } while (opcao != 0);

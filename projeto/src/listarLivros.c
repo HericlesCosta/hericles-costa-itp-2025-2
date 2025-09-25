@@ -4,7 +4,7 @@
 void listarLivros() {
     
     if (totalLivros == 0) {
-        printf("Você não possui nenhum livro cadastrado!\n");
+        printf("\nVocê não possui nenhum livro cadastrado!\n");
         return;
     }
 

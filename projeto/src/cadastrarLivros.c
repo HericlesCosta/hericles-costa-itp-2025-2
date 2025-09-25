@@ -9,7 +9,7 @@ int totalLivros = 0;
 void cadastrarLivros() {
 
     if (totalLivros >= MAX_LIVROS) {
-        printf("A biblioteca já foi preenchida com o número máximo de livros!\n");
+        printf("\nA biblioteca já foi preenchida com o número máximo de livros!\n");
         return;
     }
 
