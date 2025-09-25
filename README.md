@@ -11,7 +11,7 @@
 
 ## 🚀 Projeto: Sistema de Biblioteca
 
-**Descrição**: O projeto integra serviços de cadastro, remoção e listagem de livros cadastrados.
+**Descrição**: O projeto é um sistema de bilbioteca em C, que integra serviços de cadastro, remoção e listagem de livros cadastrados utilizando todos os recursos aprendidos durante a unidade I.
 
 **Repositório**: [Projeto no Github](https://github.com/HericlesCosta/hericles-costa-itp-2025-2)
 
@@ -24,7 +24,7 @@
 
 ### Conceitos da U1 Aplicados:
 - Estruturas condicionais: ifs e switch-case. Foram utilizadas em verificações para realizar as ações e para escolher a opção da ação.
-- Estruturas de repetição: "for" para listagem e remoção dos livros. "Do-while" para o arquivo principal, onde mostra as opções para escolha, ficar em loop até o encerramento do programa. 
+- Estruturas de repetição: "for" para listagem e remoção dos livros. "Do-while" para o arquivo principal, onde mostra as opções para escolha, ficar em loop até a escolha da opção de encerramento do programa. 
 - Vetores: Para salvar os livros em ordem de cadastro.
 - Funções: 3 funções além da main. Como falando anteriormente, utilizadas para cadastro, remoção e listagem de livros.
 
@@ -68,7 +68,7 @@
 - ✅ Problema 4: Em busca do tesouro perdido
 
 ## 🎯 Principais Aprendizados
-Serviu, principalmente, para conhecer melhor a linguagem. Fiz diversas pesquisas para saber como implementar as coisas, como funcionava tudo etc. Além do mais, é uma linguagem forte e é bastante útil para possuir um conhecimento mais amplo para depois utilizar em outras linguagens mais "fracas".
+Serviu, principalmente, para conhecer melhor a linguagem. Fiz diversas pesquisas para saber como implementar as coisas, como funcionava tudo etc. Além do mais, é uma linguagem que funciona parcialmente em baixo nível e é bastante útil para possuir um conhecimento mais amplo para depois utilizar em outras linguagens de alto nível.
 
 ## 🔧 Ambiente de Desenvolvimento
 - **SO**: WSL - Windows Subsystem Linux - Ubuntu
