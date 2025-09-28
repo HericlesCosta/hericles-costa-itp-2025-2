@@ -11,6 +11,7 @@ Após isso, pode seguir com a compilação e execução do programa.
 **O arquivo makefile já realiza toda a compilação do projeto. Sendo assim, no terminal, digite o que está abaixo.**
 
 make
+
 ./projeto
 
 
