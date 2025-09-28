@@ -15,7 +15,7 @@
 
 **Repositório**: [Projeto no Github](https://github.com/HericlesCosta/hericles-costa-itp-2025-2)
 
-**Vídeo de Demonstração**: [Vídeo no Youtube]()
+**Vídeo de Demonstração**: [Vídeo no Youtube](https://youtu.be/RxM4o-f9cCg)
 
 ### Funcionalidades Implementadas:
 - Cadastro de livros;
@@ -68,9 +68,9 @@
 - ✅ Problema 4: Em busca do tesouro perdido
 
 ## 🎯 Principais Aprendizados
-Serviu, principalmente, para conhecer melhor a linguagem já que fiz diversas pesquisas para saber como implementar as coisas, como funcionava tudo etc. Além do mais, é uma linguagem que funciona parcialmente em baixo nível e é bastante útil para possuir um conhecimento mais amplo para depois utilizar em outras linguagens de alto nível.
+Serviu, principalmente, para conhecer melhor a linguagem, já que fiz diversas pesquisas para saber como implementar as coisas, como funcionava tudo etc. Além do mais, é uma linguagem que funciona parcialmente em baixo nível e é bastante útil para possuir um conhecimento mais amplo para depois utilizar em outras linguagens de alto nível.
 
 ## 🔧 Ambiente de Desenvolvimento
-- **SO**: WSL - Windows Subsystem Linux - Ubuntu
+- **SO**: WSL - Windows Subsystem Linux - Ubuntu (Windows 10)
 - **Compilador**: GCC versão 13.3.0
 - **Editor**: VSCODE
