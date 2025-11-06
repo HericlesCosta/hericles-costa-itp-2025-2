@@ -16,6 +16,7 @@
 **Repositório**: [Projeto no Github](https://github.com/HericlesCosta/hericles-costa-itp-2025-2)
 
 **Vídeo de Demonstração U1**: [Vídeo no Youtube](https://youtu.be/RxM4o-f9cCg)
+
 **Vídeo de Demonstração U2**: [Vídeo no Youtube](https://youtu.be/RxM4o-f9cCg)
 
 ### Funcionalidades Implementadas:

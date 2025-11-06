@@ -38,10 +38,10 @@ int main() {
             buscarLivros();
             break;
         case 5: // NOVA OPÇÃO
-            emprestarLivro();
+            emprestarLivros();
             break;
         case 6: // NOVA OPÇÃO
-            devolverLivro();
+            devolverLivros();
             break;
         case 7: // NOVA OPÇÃO
             imprimirRelatorio();

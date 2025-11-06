@@ -15,8 +15,8 @@ void listarLivros();
 void removerLivros();
 void buscarLivros();
 
-void emprestarLivro();
-void devolverLivro();
+void emprestarLivros();
+void devolverLivros();
 void imprimirRelatorio();
 
 #endif

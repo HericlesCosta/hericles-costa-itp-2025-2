@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "biblioteca.h"
 
-void emprestarLivro() {
+void emprestarLivros() {
     if (totalLivros == 0) {
         printf("\nNão há livros para emprestar.\n");
         return;

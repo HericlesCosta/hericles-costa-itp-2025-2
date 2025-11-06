@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "biblioteca.h"
 
-void devolverLivro() {
+void devolverLivros() {
     if (totalLivros == 0) {
         printf("\nNão há livros cadastrados para devolver.\n");
         return;
