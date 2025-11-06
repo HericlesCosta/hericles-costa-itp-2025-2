@@ -1,5 +1,6 @@
 #include <stdio.h>
-#include <string.h>
+#include <stdlib.h> // Para free()
+#include <string.h> 
 #include "biblioteca.h"
 
 void removerLivros(){
@@ -10,7 +11,7 @@ void removerLivros(){
     }
 
     int indice;
-    listarLivros();
+    listarLivros(); 
     printf("\nDigite o número do livro que deseja remover: ");
     scanf("%d", &indice);
 
@@ -19,10 +20,35 @@ void removerLivros(){
         return;
     }
 
-    for (int i = indice - 1; i < totalLivros - 1; i++) {
-        strncpy(biblioteca[i], biblioteca[i + 1], MAX_TITULO);
+    // Ajusta para o índice 0 do vetor
+    indice = indice - 1; 
+
+
+    // Libera a memória do título do livro a ser removido
+    free(biblioteca[indice]);
+
+    // Descobre qual é o índice do último livro
+    int ultimoIndice = totalLivros - 1;
+
+    // Verifica se o livro a ser removido não é o último livro
+    if (indice != ultimoIndice) {
+        
+        // Copia o ponteiro do último livro para a posição do livro removido
+        biblioteca[indice] = biblioteca[ultimoIndice];
+
+        // Copia os DADOS (status/empréstimos) do último livro para a posição do livro removido.
+        dadosLivros[indice][0] = dadosLivros[ultimoIndice][0];
+        dadosLivros[indice][1] = dadosLivros[ultimoIndice][1];
     }
 
+    // Limpa o ponteiro do último livro que está duplicado
+    biblioteca[ultimoIndice] = NULL;
+    
+    // Reseta os dados da matriz na última posição,
+    dadosLivros[ultimoIndice][0] = 0;
+    dadosLivros[ultimoIndice][1] = 0;
+
+    // Diminui o contador de livros
     totalLivros--;
     printf("\nLivro removido com sucesso!\n");
 }

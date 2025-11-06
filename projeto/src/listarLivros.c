@@ -8,9 +8,19 @@ void listarLivros() {
         return;
     }
 
-    printf("\n Lista de Livros Cadastrados!\n\n");
+    printf("\n Lista de Livros Cadastrados! (%d/%d)\n\n", totalLivros, capacidadeBiblioteca);
 
     for (int i = 0; i < totalLivros; i++) {
-        printf("%d: %s", i + 1, biblioteca[i]);
+
+        // Pega o status do livro da matriz
+        char* status;
+        if (dadosLivros[i][0] == 0) {
+            status = "Disponível";
+        } else {
+            status = "Emprestado";
+        }
+
+        printf("%d: %s [%s]\n", i + 1, biblioteca[i], status);
     }
+    printf("-------------------------------------\n");
 }

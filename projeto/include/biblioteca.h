@@ -1,14 +1,22 @@
 #ifndef BIBLIOTECA_H
 #define BIBLIOTECA_H
-#define MAX_LIVROS 5
-#define MAX_TITULO 100
 
-extern char biblioteca[MAX_LIVROS][MAX_TITULO];
-
+extern char **biblioteca;
 extern int totalLivros;
+extern int capacidadeBiblioteca;
+
+extern int **dadosLivros; // Matriz para [status][contador_emprestimos]
+
+void inicializarBiblioteca(int capacidade);
+void liberarBiblioteca();
 
 void cadastrarLivros();
 void listarLivros();
 void removerLivros();
+void buscarLivros();
+
+void emprestarLivro();
+void devolverLivro();
+void imprimirRelatorio();
 
 #endif
