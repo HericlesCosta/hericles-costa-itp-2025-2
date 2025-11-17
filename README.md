@@ -17,7 +17,7 @@
 
 **Vídeo de Demonstração U1**: [Vídeo no Youtube](https://youtu.be/RxM4o-f9cCg)
 
-**Vídeo de Demonstração U1**: [Vídeo no Youtube](https://youtu.be/1YDoK1pzq8s)
+**Vídeo de Demonstração U2**: [Vídeo no Youtube](https://youtu.be/1YDoK1pzq8s)
 
 ### Funcionalidades Implementadas:
 - Cadastro de livros;
